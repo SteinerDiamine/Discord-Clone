@@ -1,8 +1,10 @@
-
+import {Button} from '@/components/ui/button';
 
 export default function Home() {
   return (
-    <p className="">Discord</p>
-    
+    <div className="flex flex-col">
+      <p>Discord</p>
+      <Button>Click me</Button>
+    </div>
   );
 }
